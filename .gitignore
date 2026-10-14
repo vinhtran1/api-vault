@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Local SQLite databases & temporary files (NEVER COMMIT USER DATA)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/
+
+# Environment & Credentials
+.env
+.env.local
+*.pem
+*.key
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# Build & Scratch
+dist/
+coverage/
+.idea/
+.vscode/

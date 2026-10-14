@@ -1,0 +1,40 @@
+{
+  "name": "api-vault",
+  "version": "1.0.0",
+  "description": "Local-first API Client & MCP Server with Native SQLite. Zero cloud limits, unlimited audit history, and Dense Tech Studio.",
+  "main": "src/server.js",
+  "bin": {
+    "api-vault": "./bin/api-vault.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "studio": "node src/dashboard.js",
+    "dev": "node bin/api-vault.js studio"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "api-client",
+    "sqlite",
+    "local-first",
+    "developer-tools",
+    "rest",
+    "graphql",
+    "postman-alternative",
+    "hoppscotch-alternative"
+  ],
+  "author": "Vinh Tran <tranphuvinh1@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinhtran1/api-vault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinhtran1/api-vault/issues"
+  },
+  "homepage": "https://github.com/vinhtran1/api-vault#readme",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "type": "commonjs"
+}
